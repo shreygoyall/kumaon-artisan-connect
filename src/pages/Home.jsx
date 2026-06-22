@@ -5,12 +5,12 @@ import Footer from "../components/Footer";
 
 function Home() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <Navbar />
       <Hero />
 
       <div className="max-w-7xl mx-auto px-4 py-12">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">
+        <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
           Featured Products
         </h2>
 

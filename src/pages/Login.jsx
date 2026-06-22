@@ -3,34 +3,34 @@ import Footer from "../components/Footer";
 
 function Login() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <Navbar />
 
       <div className="max-w-md mx-auto px-4 py-12">
-        <div className="bg-white p-8 rounded-lg shadow-md">
-          <h1 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+        <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md">
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 text-center">
             Login
           </h1>
 
           <form className="space-y-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                 Email Address
               </label>
               <input
                 type="email"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 placeholder="your@email.com"
               />
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                 Password
               </label>
               <input
                 type="password"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 placeholder="••••••••"
               />
             </div>
@@ -43,9 +43,12 @@ function Login() {
             </button>
           </form>
 
-          <p className="text-center text-gray-600 mt-4 text-sm">
+          <p className="text-center text-gray-600 dark:text-gray-400 mt-4 text-sm">
             Don't have an account?{" "}
-            <a href="#" className="text-indigo-600 hover:underline">
+            <a
+              href="#"
+              className="text-indigo-600 dark:text-indigo-400 hover:underline"
+            >
               Sign up
             </a>
           </p>
