@@ -1,12 +1,55 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Card from "./components/Card";
+import Footer from "./components/Footer";
+
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold text-indigo-600 mb-4">
-          Kumaon Artisan Connect
-        </h1>
-        <p className="text-gray-600 text-lg">Tailwind CSS is working! 🎉</p>
+    <div className="min-h-screen bg-gray-50">
+      <Navbar />
+      <Hero />
+
+      {/* Products Section */}
+      <div className="max-w-7xl mx-auto px-4 py-12">
+        <h2 className="text-3xl font-bold text-gray-900 mb-8">
+          Featured Products
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <Card
+            title="Pashmina Shawl"
+            description="Hand-woven traditional pashmina shawl from Kumaon artisans"
+            price={4500}
+          />
+          <Card
+            title="Woolen Blanket"
+            description="Pure wool blanket with traditional patterns"
+            price={3200}
+          />
+          <Card
+            title="Wood Carving"
+            description="Handcrafted wooden artifact by local artisans"
+            price={1800}
+          />
+          <Card
+            title="Himalayan Stole"
+            description="Handwoven stole with traditional motifs"
+            price={2500}
+          />
+          <Card
+            title="Embroidered Bag"
+            description="Traditional embroidery on handmade fabric"
+            price={1200}
+          />
+          <Card
+            title="Brass Utensil Set"
+            description="Traditional brass cookware set"
+            price={5500}
+          />
+        </div>
       </div>
+
+      <Footer />
     </div>
   );
 }
