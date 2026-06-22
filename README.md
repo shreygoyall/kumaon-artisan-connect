@@ -1,21 +1,5 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 =======
+
 # Kumaon Artisan Connect
 
 > AI-powered digital marketplace connecting handloom artisans with wholesale buyers
@@ -43,6 +27,7 @@ A full-stack web application built for the Kumaon Heritage Weavers Alliance to p
 ## 📁 Project Structure
 
 kumaon-artisan-connect/
+
 - frontend/ # React application (coming soon)
 - backend/ # Express API (coming soon)
 - README.md
@@ -61,7 +46,7 @@ kumaon-artisan-connect/
 
 **Program:** TBI-GEU Summer Internship Program 2026  
 **Track:** AI-Assisted Full Stack Web Development  
-**Sector:** Handloom & Handicraft  
+**Sector:** Handloom & Handicraft
 
 ## 📝 Setup Instructions
 
@@ -75,4 +60,4 @@ Detailed setup instructions will be added as development progresses.
 
 **Last Updated:** June 10, 2026
 
->>>>>>> 40f5536940696cc5658318bd5fbde8cd488231b8
+> > > > > > > 40f5536940696cc5658318bd5fbde8cd488231b8
